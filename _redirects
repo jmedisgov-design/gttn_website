@@ -1,0 +1,2 @@
+# www → apex (Cloudflare Pages / Netlify format)
+https://www.gttn.global/* https://gttn.global/:splat 301!
