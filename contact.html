@@ -3,7 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; font-src 'self'; form-action 'self' mailto:; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; font-src 'self'; form-action 'self' mailto:; base-uri 'self'; object-src 'none'">
+<!-- No upgrade-insecure-requests in the page: until the host's certificate exists it would block the stylesheet and
+     images. HTTPS is enforced by the host instead (GitHub Pages "Enforce HTTPS"; .htaccess on Apache). -->
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Contact GTTN</title>
 <meta name="description" content="Request a demo, become a design partner, integrate through the API, or contact GTTN about investment or careers.">
