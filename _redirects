@@ -1,2 +1,2 @@
-# www → apex (Cloudflare Pages / Netlify format)
-https://www.gttn.global/* https://gttn.global/:splat 301!
+# gttn.global → www.gttn.global (Cloudflare Pages / Netlify format; Namecheap/Apache uses .htaccess)
+https://gttn.global/* https://www.gttn.global/:splat 301!
